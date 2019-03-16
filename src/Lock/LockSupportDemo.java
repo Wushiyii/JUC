@@ -27,6 +27,5 @@ public class LockSupportDemo extends Thread{
         LockSupport.park(cur);
 
         System.out.println(Thread.currentThread().getName()+" continue A");
-
     }
 }
